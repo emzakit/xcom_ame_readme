@@ -120,16 +120,6 @@ Every one of those mid-track landings gets a short sweep across the band in fron
 
 **Radio Mode lives on the Avenger and nowhere else**, deliberately — long-form radio is downtime noise, and a DJ cracking wise mid-firefight kills the tension stone dead. Three sources decide what it pulls from: the radio pool, your ordinary Avenger tracks (**"Avenger Only" is the sleeper hit** — it gives your existing library the tuned-in-halfway-through treatment with no radio folder at all), or both trading off.
 
-Or subscribe to our own daft little XCOM podcast and switch it on in the **Addons** tab:
-
-<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3775888357"><img src="assets/mod_covers/mod_resistance_podcast.jpg" align="left" width="92" hspace="10"></a>
-
-[**Resistance Podcast**](https://steamcommunity.com/sharedfiles/filedetails/?id=3775888357) — two hosts talking about life under ADVENT. Long-form chatter, written for the Avenger, and the pack Radio Mode was built around. Switch Radio Mode on with it and you drop in mid-sentence.
-
-[**Full collection of addons →**](https://steamcommunity.com/workshop/filedetails/?id=3785517540)
-
-<br clear="left">
-
 ---
 
 ## 🎚️ Two kinds of music folder, and the difference matters
