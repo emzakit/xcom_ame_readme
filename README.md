@@ -410,7 +410,7 @@ Every mod page promises the moon. Here's what you actually get.
 **[Report a bug →](https://github.com/emzakit/xcom_ame_readme/issues)**
 
 > **🛡️ Scanner flagged the exe?**
-> False alarm — [here's the VirusTotal report](https://www.virustotal.com/gui/file/524864bb7422b643c1cd2674c49c496628bd61d418c9d8e406a6229cedfc858f).
+> False alarm — [here's the VirusTotal report](https://www.virustotal.com/gui/file/ad4d99d5c7d59c55538c54f5dfc05b23dd61331b4860727ac1069e29b430218f).
 > PyInstaller stuffs an entire Python runtime into a single exe, which to an antivirus
 > looks **exactly** like what actual malware does — same wrapping paper, wildly
 > different contents. Textbook mistaken identity. Don't trust a stranger's
