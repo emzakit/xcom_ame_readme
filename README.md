@@ -21,13 +21,13 @@
 
 ---
 
-## 📡 Incoming transmission
+## 📡 Your music, in XCOM 2
 
-There's a van out in the Wilderness. It shouldn't run, and ADVENT would very much like to know where it is. Inside it, two absolute liabilities called **JAX** and **SILO** are broadcasting off gear that fell out of the back of a supply truck, and neither of them has once stopped talking long enough to notice they're transmitting straight into a warship full of Commanders.
+**Anarchy Music Engine takes XCOM 2's soundtrack out of the way and lets you put your own back in.** Drop files into folders. Each screen of the game gets its own music — the Avenger, the Geoscape, squad select, the firefight, the win and the loss. That's the whole pitch.
 
-They have no idea XCOM is listening. Nobody's told them. Nobody's going to.
+It works by reading the game's own log. XCOM writes a line whenever you move between screens; the app follows along and plays the matching folder. Nothing is injected, no game files are touched, and your music is never copied or moved — it plays where it sits.
 
-Here's what Command has been feeding you: a lovely orchestral score, extremely tasteful, and — forty hours in — extremely the same. **Anarchy Music Engine takes XCOM 2's soundtrack out of the way and lets you put anything back in.** Drop files into folders. Each screen of the game gets its own music. That's the whole pitch.
+Command's orchestral score is extremely tasteful and, forty hours in, extremely the same. So instead:
 
 - 🎻 An orchestral score narrating the Geoscape while the planet quietly loses? Sure.
 - 🤘 Something extremely loud the exact moment a Sectoid pops out of the dirt? Obviously.
@@ -354,22 +354,13 @@ That's XCOM's config loader, not us cutting corners.
 
 ---
 
-## 🎙️ The comms log isn't a status readout
+## 🎙️ The comms log
 
-It's the station.
+The app keeps a running log of what it's doing — which screen you're on, which folder it picked, which track started, and what it couldn't find. It's the first place to look when something isn't playing, and the [troubleshooting guide](https://github.com/emzakit/xcom_ame_readme/wiki/Troubleshooting) reads it with you.
 
-```
-SILO: No carrier yet. We're just talking to ourselves out here.
-JAX : WE ARE LIVE. Broadcasting from a van that is definitely on fire.
-JAX : SILO, cut state_mission_explore. We're going to state_mission_combat. 3 ready.
-SILO: Carrier's gone. Killing the transmitter before ADVENT triangulates us. Again.
-```
+The flavour lines are stage dressing over that, and **the whole script is one editable file** — `helpers/dialogue.json`, in the app folder. Rewrite it, or strip it back to plain status lines. No code required.
 
-**SHEN** runs setup and tells you straight when something's genuinely on fire — she knows you're out there listening. **JAX** (decks) and **SILO** (wire) do not, and never will, no matter how much they overshare.
-
-**JAX and SILO's entire script lives in one editable file** — `helpers/dialogue.json`, in the app folder. Don't rate the crew? Fire the lot of them and write your own. No code required.
-
-SHEN is the exception, and deliberately. Her lines about paths, updates and things that broke are written where the breaking happens, because a fault report that can be edited into saying something else isn't a fault report.
+Fault reports are the exception and stay put: warnings about paths, updates and things that actually broke are written where the breaking happens, because a fault report you can accidentally edit into saying something else isn't a fault report.
 
 ---
 
