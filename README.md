@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/git_banner.png" alt="Anarchy Music Engine" width="640">
+  <img src="assets/logo/xipod_logo.png" alt="Anarchy Music Engine" width="640">
 </p>
 
 <h1 align="center">XCOM 2: Anarchy Music Engine</h1>
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version 1.0.1" src="https://img.shields.io/badge/version-1.0.1-5fd3e3?style=for-the-badge&labelColor=08141a">
+  <img alt="Version 2.0.0" src="https://img.shields.io/badge/version-2.0.0-5fd3e3?style=for-the-badge&labelColor=08141a">
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3796844123">
     <img alt="Steam Workshop" src="https://img.shields.io/badge/Steam-Workshop-d9a441?style=for-the-badge&labelColor=08141a&logo=steam">
   </a>
@@ -124,17 +124,80 @@ Every one of those mid-track landings gets a short burst of tuning static in fro
 
 ---
 
-## 🎚️ Two kinds of music folder, and the difference matters
+## 🎚️ Three kinds of pack, and the difference matters
 
-Everything a music pack gives you is one of two things, and the pack decides which.
+Every music pack is one of three things, and the pack decides which. It's the same split the **Addons** tab sorts your library into.
 
 **🎼 Soundtrack — the default.** You never see it listed anywhere. It plays in the background and changes with where you are in the game: the ship, the Geoscape, squad select, a firefight. A pack author who does nothing at all gets this, and for most packs it's the right answer — you want the music to follow the game, not to be a thing anybody has to choose.
 
 **📻 Station — the pack asks for one.** A pack can put its own name on the **in-game dial** by asking for it in its settings file. You can then flick between stations, pick one, and your choice sticks.
 
-So: not every folder is a station. Most music is a soundtrack, quietly doing its job. A station is what you build when you want to be able to *tune* to something by name.
+**🎙️ DJ — a presenter, and no music at all.** You don't tune to a DJ. You make a station of your own, point it at *your* records, and pick the DJ from its dropdown — then they do their whole show over your library. Jingles, idents, links between records, ad reads.
+
+So: not every folder is a station. Most music is a soundtrack, quietly doing its job. A station is what you build when you want to *tune* to something by name. And a DJ is who presents it.
 
 You can build stations of your own too, on the **Stations** tab — that's the section below.
+
+---
+
+## 🎧 Packs to start you off
+
+Seven of them, all free on the Workshop, all built with this app. **Subscribe and they turn up in Addons on their own** — nothing to unzip, nothing copied onto your drive.
+
+### 🎼 Soundtracks — they follow the game
+
+<table>
+<tr>
+<td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3801229186"><img src="assets/mod_covers/mod_absolute_cinema.jpg" width="120" alt="Absolute Cinema"></a></td>
+<td>
+
+**[Absolute Cinema](https://steamcommunity.com/sharedfiles/filedetails/?id=3801229186)** — *cinematic · orchestral*
+
+Scores from games and films, **sorted by key** so one track grows into the next instead of slamming shut and starting over. Brings four long mixes with it as stations of their own, each one dropping you in part-way through.
+
+</td>
+</tr>
+<tr>
+<td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798400919"><img src="assets/mod_covers/mod_xcom_musical.jpg" width="120" alt="XCOM: The Musical"></a></td>
+<td>
+
+**[XCOM: The Musical](https://steamcommunity.com/sharedfiles/filedetails/?id=3798400919)** — *musical · soundtrack*
+
+Built to test whether the app actually worked. It did. A full XCOM 2 soundtrack **sung the whole way through**: sea shanties for the firefights, drill cadences on the Skyranger ramp, boss-battle metal for the Chosen, and three alien tongues nobody asked for.
+
+</td>
+</tr>
+</table>
+
+### 📻 A station — you tune to it by name
+
+<table>
+<tr>
+<td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798401376"><img src="assets/mod_covers/mod_resistance_radio.jpg" width="120" alt="Resistance Radio"></a></td>
+<td>
+
+**[Resistance Radio](https://steamcommunity.com/sharedfiles/filedetails/?id=3798401376)** — *radio · chat*
+
+The starter pack. Radio mixes lifted from well-known games, chat shows, and your own Resistance Podcast — **seven stations on the dial**. Pair it with Radio Mode and every trip back to the Avenger lands you somewhere new.
+
+</td>
+</tr>
+</table>
+
+### 🎙️ DJs — they bring the patter, you bring the records
+
+**None of these four ship a single song.** Make a station on the **Stations** tab, point it at a folder of your own, pick a DJ from its dropdown, and they present *your* library — jingles, idents, links between records, ad reads. Preview them before you hire them.
+
+<table>
+<tr>
+<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404665"><img src="assets/mod_covers/mod_dj_valentine.jpg" width="120" alt="Valentine Sable"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404665">Valentine Sable</a></strong><br><em>rock</em></td>
+<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404340"><img src="assets/mod_covers/mod_dj_roy.jpg" width="120" alt="Roy Hollis"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404340">Roy Hollis</a></strong><br><em>blues</em></td>
+<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404098"><img src="assets/mod_covers/mod_dj_roxy.jpg" width="120" alt="Roxy"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404098">Roxy</a></strong><br><em>pop</em></td>
+<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798403794"><img src="assets/mod_covers/mod_dj_boombap.jpg" width="120" alt="Boom-Bap Steele"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798403794">Boom-Bap Steele</a></strong><br><em>hip-hop</em></td>
+</tr>
+</table>
+
+> **Want to make your own?** The app builds the folders and the settings file for you — or take the template and wire it by hand. **[Making a music pack →](https://github.com/emzakit/xcom_ame_readme/wiki/Making-a-music-pack)**
 
 ---
 
@@ -404,7 +467,7 @@ Every mod page promises the moon. Here's what you actually get.
 **[Report a bug →](https://github.com/emzakit/xcom_ame_readme/issues)**
 
 > **🛡️ Scanner flagged the exe?**
-> False alarm — [here's the VirusTotal report](https://www.virustotal.com/gui/file/351a46c0c7d0e426347231f49406b0f92fb4d1d4a975797c3a6c35c577b46b6c).
+> False alarm — [here's the VirusTotal report](https://www.virustotal.com/gui/file/32a9191f68804de7add1ba626fc84d4ddebc4993c6497ea35f09933696c5e9f2).
 > The app is packed into one exe by a tool called PyInstaller, which stuffs a whole
 > programming language in there with it. To an antivirus that looks **exactly** like what
 > actual malware does — same wrapping paper, wildly different contents. Textbook mistaken
