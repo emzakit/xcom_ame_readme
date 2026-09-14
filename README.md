@@ -9,12 +9,12 @@
 </p>
 
 <p align="center">
-  <img alt="Version 2.0.0" src="https://img.shields.io/badge/version-2.0.0-5fd3e3?style=for-the-badge&labelColor=08141a">
+  <img alt="Version 2.0.3" src="https://img.shields.io/badge/version-2.0.3-5fd3e3?style=for-the-badge&labelColor=08141a">
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3796844123">
     <img alt="Steam Workshop" src="https://img.shields.io/badge/Steam-Workshop-d9a441?style=for-the-badge&labelColor=08141a&logo=steam">
   </a>
-  <a href="https://drive.google.com/drive/folders/1ALThBR63ANKujNiqlUrygeqxSCVFXRHA">
-    <img alt="Download" src="https://img.shields.io/badge/download-Google%20Drive-5fd3e3?style=for-the-badge&labelColor=08141a">
+  <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3801304028">
+    <img alt="Download on the Steam Workshop" src="https://img.shields.io/badge/download-Steam%20Workshop-5fd3e3?style=for-the-badge&labelColor=08141a&logo=steam">
   </a>
   <img alt="MIT licence" src="https://img.shields.io/badge/licence-MIT-5fd3e3?style=for-the-badge&labelColor=08141a">
 </p>
@@ -23,9 +23,11 @@
 
 ## 📡 Your music, in XCOM 2
 
-**Anarchy Music Engine switches XCOM 2's soundtrack off and lets you put your own music in.** You drop music files into folders. Each part of the game gets its own folder — the Avenger, the Geoscape, squad select, the firefight, the win and the loss. That's the whole pitch.
+**Anarchy Music Engine switches XCOM 2's soundtrack off and lets you put your own music in.**
 
-Here's how it works. XCOM writes a line into its own log file every time you move from one part of the game to another. This app watches that file and plays the folder that matches. It doesn't touch any game files, and it never copies or moves your music — it plays it where it sits.
+You drop music files into folders. Each part of the game gets its own folder — the Avenger, the Geoscape, squad select, the firefight, the win and the loss. That's the whole pitch.
+
+Here's how it works. XCOM keeps a running log file as you play, and writes a line into it every time you move from one part of the game to another. This app watches that file and plays the folder that matches. It doesn't touch any game files, and it never copies or moves your music — it plays it where it sits.
 
 Command's orchestral score is extremely tasteful and, forty hours in, extremely the same. So instead:
 
@@ -33,23 +35,25 @@ Command's orchestral score is extremely tasteful and, forty hours in, extremely 
 - 🤘 Something extremely loud the exact moment a Sectoid pops out of the dirt? Obviously.
 - 💃 An hour-long DJ set over the Avenger, because you thought it'd be funny six hours ago and it's now permanently canon? Not our place to stop you.
 
-> No converting files. No renaming them. No ffmpeg gymnastics. No `.upk` file the size of a small, angry moon. **Files, folders, an exe. Done.**
+> No converting files. No renaming them. No ffmpeg gymnastics. No `.upk` file the size of a small, angry moon. **Files, folders, an app. Done.**
 
 ---
 
 ## 🚀 Get it running (four steps, Commander)
 
-**1.** Subscribe to **[the mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3796844123)**
-and **[Music Modding System](https://steamcommunity.com/workshop/filedetails/?id=757398474)**.
+**1.** Subscribe to the **[install pack](https://steamcommunity.com/workshop/filedetails/?id=3801328303)** and hit **Subscribe to all**.
+You get three items: the mod, Music Modding System, and the app itself.
 
-> Both, not one, and both **enabled** as well as subscribed. Music Modding System's whole job is making the game's own soundtrack shut up; ours is playing yours instead. Skip it and you get two soundtracks fighting over the same speaker.
+> The first two are mods, and both need **switching on** in your mod launcher as well as subscribing. Music Modding System's whole job is making the game's own soundtrack shut up; ours is playing yours instead. Skip it and you get two soundtracks fighting over the same speaker.
+>
+> The third isn't a mod and never loads into the game — it's just how Steam hands you the app, and keeps it updated. Don't go looking for it in your mod launcher.
 
 **2.** Add **`-forcelogflush`** to XCOM 2's launch options — the box where you type extra
-options for the game before it starts.
+settings for the game before it starts.
 
 > Skip this one and your music barges straight over every cinematic, uninvited, like it owns the place. **Do the step.**
 >
-> You don't have to do it blind: the app checks your launcher and says on its own front page whether the option is there. If it isn't and you're on the Alternative Mod Launcher, there's a **Fix it** button beside the line — it backs your `settings.json` up first and changes nothing else.
+> You don't have to do it blind: the app checks your launcher and tells you on its own front page whether the setting is there. If it isn't, and you're on the Alternative Mod Launcher, there's a **Fix it** button beside the message. It backs your settings file up first and changes nothing else.
 
 <details>
 <summary><strong>Show me exactly where →</strong>&nbsp; (Steam, and the Alternative Mod Launcher)</summary>
@@ -79,9 +83,17 @@ job — don't wipe it out to make room.
 
 </details>
 
-**3.** **[Download the app](https://drive.google.com/drive/folders/1ALThBR63ANKujNiqlUrygeqxSCVFXRHA)**,
-unzip it anywhere, **run `AnarchyME.exe`.** It doesn't install anything and it doesn't
-want to live next to XCOM.
+**3.** **Unzip the app somewhere of your own** and **run `AnarchyME.exe`.** It doesn't
+install anything and it doesn't want to live next to XCOM.
+
+> Steam put the zip in `steamapps\workshop\content\268500\3801304028`. To get there:
+> right-click **XCOM 2 → Manage → Browse local files**, then go **up two folders** to
+> `steamapps` and into `workshop\content\268500\3801304028`.
+>
+> **Don't run it from that folder.** Steam owns it and replaces everything in it every
+> time the app updates, which would take your settings and saved sounds with it. Copy the
+> zip out first. Not on Steam, or in a hurry? The **[Google Drive folder](https://drive.google.com/drive/folders/1ALThBR63ANKujNiqlUrygeqxSCVFXRHA)**
+> has the same zip, and it's still where the app's own updater looks.
 
 > No wizard to sit through. The settings panel opens on the **Options** tab — set your
 > **Game Launcher / AML**, press **Find my paths**, and it works the rest out from there.
@@ -91,9 +103,9 @@ want to live next to XCOM.
 **4.** Press **Create JSON File** to build the music folders, then drop your music into
 them. **That's it.**
 
-> **One rule about folders and it's the only one:** the `STATE_` folders play by
+> **One rule about folders, and it's the only one:** the `STATE_` folders play by
 > themselves, and **only the music sitting directly inside them**. Put a file in a
-> folder inside one and it won't play, unless you point a station at that folder.
+> folder tucked inside one and it won't play, unless you point a station at that folder.
 > If you've left music somewhere nothing reads, the app says so out loud — *"Music
 > nothing will ever reach — 2 folder(s)…"* — instead of quietly playing less music
 > than you gave it.
@@ -197,7 +209,7 @@ The starter pack. Radio mixes lifted from well-known games, chat shows, and your
 </tr>
 </table>
 
-> **Want to make your own?** The app builds the folders and the settings file for you — or take the template and wire it by hand. **[Making a music pack →](https://github.com/emzakit/xcom_ame_readme/wiki/Making-a-music-pack)**
+> **Want to make your own?** The app builds the folders and the settings file for you — or take the template and fill it in by hand. **[Making a music pack →](https://github.com/emzakit/xcom_ame_readme/wiki/Making-a-music-pack)**
 
 ---
 
@@ -216,9 +228,9 @@ The starter pack. Radio mixes lifted from well-known games, chat shows, and your
 
 Want the Avenger sounding like a field radio held together with tape, hope and a war crime? Two clicks.
 
-Underneath, for anyone who owns a compressor on purpose: a **room simulator** that makes your music sound like it's playing in a real space, using a recording of that space — an *impulse response* — dropped into the `impulses` folder beside the app. And a **VST3 slot** at the end of the chain, if you have audio plugins of your own. Plus three ways one record becomes the next — **Hard Cut**, **Crossfade** or **Sweep**, which is what it ships with.
+Underneath, for anyone who owns a compressor on purpose: a **room simulator** that makes your music sound like it's playing in a real space, using a recording made in that space. Drop those recordings into the `impulses` folder beside the app. And an **audio plugin slot** at the end of the chain — a VST3 — if you have plugins of your own. Plus three ways one record becomes the next: **Hard Cut**, **Crossfade** or **Sweep**, which is what it ships with.
 
-> We ship **no** impulse responses. The good ones are somebody's recording of somebody else's room and that licence isn't ours to hand out — bring your own. And **a room only plays if you pick one**: the dropdown opens on *Off*, and Off is what a fresh install gets. Same deal with the VST3 slot — a plugin is a program, not a settings file, so load ones you trust.
+> We ship **no** room recordings. The good ones are somebody's recording of somebody else's room and that licence isn't ours to hand out — bring your own. And **a room only plays if you pick one**: the dropdown opens on *Off*, and Off is what a fresh install gets. Same deal with the plugin slot — a plugin is a program, not a settings file, so load ones you trust.
 
 </td>
 </tr>
@@ -254,11 +266,11 @@ There's no Save button — flick a switch and it's saved and rescanned about hal
 </tr>
 </table>
 
-Also on tap: **self-updating** — it parks your old version in its own folder next to the new one, and the Updater tab grows a **`Go back to v…`** button that puts it back and restarts, settings and presets untouched. Nothing is ever overwritten, every download is checked against a fingerprint of the real file before anything is touched, and a failed update puts it all back. (If a bad update ever stops the app opening at all, `update_manually.bat` sits next to the exe and does the same job from outside.)
+Also on tap: **self-updating** — it parks your old version in its own folder next to the new one, and the Updater tab grows a **`Go back to v…`** button that puts it back and restarts, settings and saved sounds untouched. Nothing is ever overwritten, every download is checked against a fingerprint of the real file before anything is touched, and a failed update puts it all back. (If a bad update ever stops the app opening at all, `update_manually.bat` sits next to it and does the same job from outside.)
 
 Plus **separate settings for every part of the game**: volume, Sound preset, Loop, Random Start — all remembered exactly as you left it. And an **interface size** slider from 80% to 125%, because the app ships small on purpose and not every monitor agrees with that.
 
-And a **Test Bench** tab, which is there in every build and switched off in all of them. Press *Arm test mode* and the app stops listening to XCOM and starts listening to a fake log you drive with buttons: transitions, moves from one part of the game to another, cinematics, combat cues, console commands, whole scenarios replayed at up to 50×. Every button writes a real log line and the app reads it exactly as it would read the game's, so if it works there it works in the game — handy for building a pack without launching XCOM forty times. Leave it alone and it does nothing at all.
+And a **Test Bench** tab, which is there in every build and switched off in all of them. Press *Arm test mode* and the app stops listening to XCOM and starts listening to a fake log you drive with buttons: transitions, moves from one part of the game to another, cinematics, combat cues, console commands, whole sessions replayed at up to 50×. Every button writes a real log line and the app reads it exactly as it would read the game's, so if it works there it works in the game — handy for building a pack without launching XCOM forty times. Leave it alone and it does nothing at all.
 
 ---
 
@@ -271,7 +283,7 @@ Hit **`Ctrl+Alt+R`** mid-mission and the station comes to you. Closed, it's a fe
 | **Tracks** | What's on the station you're looking at. Hover a row: **Play** it once, or **Override** — your pick keeps going until the game moves you somewhere else, and there's a switch to make it keep going even then. |
 | **Effects** | Volume, sound and effects for each part of the game. |
 | **Addons** | Your music packs, ticked on and off without going back to the desktop. |
-| **Options** | The keyboard shortcut, the edge tab, the tuning sting. |
+| **Options** | The keyboard shortcut, the edge tab, the tuning sound. |
 
 Down the left is the station list with `«` `»` to walk the dial, and **Show all stations** to put every `STATE_` folder on the list too — off by default, because nobody tunes to Squad Select Music on purpose.
 
@@ -281,11 +293,11 @@ Three ways in: the keyboard shortcut, the edge tab, or **Show Overlay** on the t
   <img src="assets/img_v3_overlay.jpg" alt="The overlay open over XCOM's main menu, tuned to a station" width="720">
 </p>
 
-> **It's a second window from *our* exe, not something drawn inside XCOM.** That's the whole design: if the game ever crashes, we know for certain it wasn't us. Worst case our window dies and the music stops.
+> **It's a second window from *our* app, not something drawn inside XCOM.** That's the whole design: if the game ever crashes, we know for certain it wasn't us. Worst case our window dies and the music stops.
 
 ### 📢 Exclusive fullscreen? You lose the picture, not the controls
 
-The overlay can only *draw* itself if XCOM is in **borderless-windowed** — that's one of the choices under display mode in the game's video options. In exclusive fullscreen the game owns the screen outright, and nothing in a window can get in front of it. That's how Windows works, not a bug we're quietly hoping you won't notice.
+The overlay can only *draw* itself if XCOM is in **borderless windowed** — that's one of the choices under display mode in the game's video options. In exclusive fullscreen the game owns the screen outright, and nothing in a window can get in front of it. That's how Windows works, not a bug we're quietly hoping you won't notice.
 
 **The controls don't need a window, though.** Only the picture does.
 
@@ -296,7 +308,7 @@ The overlay can only *draw* itself if XCOM is in **borderless-windowed** — tha
 | **Play, pause, next, back** (`Ctrl+Alt+P` / `N` / `B`) | ✅ | ✅ |
 | **Actually seeing the overlay** | ✅ | ❌ |
 
-Play, pause, next and back are handed to **Windows itself** rather than to any window, and they work from the moment the app starts. The console commands travel by log file: you type, XCOM writes a line, we read it and act on it. Neither route cares what your display settings say. **Borderless-windowed costs you nothing in XCOM 2 and gets you the lot**, so that's the recommendation — but if you're staying on exclusive fullscreen you're not locked out. You just don't get the pretty bit.
+Play, pause, next and back are handed to **Windows itself** rather than to any window, and they work from the moment the app starts. The console commands travel by log file: you type, XCOM writes a line, we read it and act on it. Neither route cares what your display settings say. **Borderless windowed costs you nothing in XCOM 2 and gets you the lot**, so that's the recommendation — but if you're staying on exclusive fullscreen you're not locked out. You just don't get the pretty bit.
 
 <details>
 <summary><strong>⌨️ Changing the keyboard shortcuts (and why the media keys aren't the default) →</strong></summary>
@@ -304,7 +316,7 @@ Play, pause, next and back are handed to **Windows itself** rather than to any w
 <br>
 
 All four shortcuts are set in **`xipod_config.json`**, a settings file sitting next to the
-exe — the lines called `overlay_hotkey`, `hotkey_play_pause`, `hotkey_next` and
+app — the lines called `overlay_hotkey`, `hotkey_play_pause`, `hotkey_next` and
 `hotkey_prev`. There's no box in the app to press a key into, because the overlay is
 built never to become the active window, so it would never receive the key you pressed at it.
 Open the file, change the value, restart the app. Leave a value empty and we don't claim
@@ -404,7 +416,7 @@ you're on exclusive fullscreen precisely to avoid. So read the list, then type.
 
 A few things stay off the console on purpose. **Folders and the game path** are
 set in the app. **The keyboard shortcuts** are set in `xipod_config.json`. **The
-VST3 plugin and the impulse response** are set on the Effects tab and nowhere
+audio plugin and the room recording** are set on the Effects tab and nowhere
 else. `Launch.log` is a shared file that every mod you have installed writes
 into, and a line in it should not get to say which program this machine loads and
 runs inside the audio chain.
@@ -432,7 +444,7 @@ Fault reports are the exception and stay put: warnings about paths, updates and 
 
 ## 📚 The Codex
 
-Everything past "run the exe" lives in the
+Everything past "run the app" lives in the
 **[wiki](https://github.com/emzakit/xcom_ame_readme/wiki)**.
 
 | | | |
@@ -456,9 +468,9 @@ Every mod page promises the moon. Here's what you actually get.
 
 **✅ The Avenger and the strategy layer are the polished bits.** Main menu, ship, Geoscape, squad select, the post-mission summaries. You linger there, the app can tell exactly when you arrive, and it just works. That's where the hours went and I'll defend it without blinking.
 
-**🚧 The tactical side is beta, and honestly you may not want us on it.** A firefight isn't you walking into somewhere new. It's a judgement about what's happening, worked out from a log file after the fact — so it can land late, or twice, or for a concealment break that came to nothing. **For combat we genuinely recommend Music Modding System packs instead.** You already need Music Modding System installed, it's already the thing that decides when combat starts, and it doesn't have to go via a log file to say so. Leave `STATE_MISSION_COMBAT/` empty and it takes combat straight back. Us for the ship, Music Modding System for the shooting.
+**🚧 The tactical side is beta, and honestly you may not want us on it.** A firefight isn't you walking into somewhere new. It's a judgement about what's happening, worked out from a log file after the fact — so it can land late, or twice, or for a moment of being spotted that came to nothing. **For combat we genuinely recommend Music Modding System packs instead.** You already need Music Modding System installed, it's already the thing that decides when combat starts, and it doesn't have to go via a log file to say so. Leave `STATE_MISSION_COMBAT/` empty and it takes combat straight back. Us for the ship, Music Modding System for the shooting.
 
-**🎯 Spotting which enemy you're facing — pointing music at a Chosen or an Alien Ruler — is very experimental and genuinely buggy.** It can be missed entirely. Build a pack around a Chosen theme only if you're happy for it not to fire.
+**🎯 Pointing music at a particular enemy — a Chosen or an Alien Ruler — is very experimental and genuinely buggy.** It can be missed entirely. Build a pack around a Chosen theme only if you're happy for it not to fire.
 
 **🤝 Running a Music Modding System pack alongside this** works properly. Fill the folders you actually care about; the pack quietly covers everything else. Anything you switch off in the app is handed straight back to Music Modding System.
 
@@ -466,12 +478,13 @@ Every mod page promises the moon. Here's what you actually get.
 
 **[Report a bug →](https://github.com/emzakit/xcom_ame_readme/issues)**
 
-> **🛡️ Scanner flagged the exe?**
-> False alarm — [here's the VirusTotal report](https://www.virustotal.com/gui/file/32a9191f68804de7add1ba626fc84d4ddebc4993c6497ea35f09933696c5e9f2).
-> The app is packed into one exe by a tool called PyInstaller, which stuffs a whole
-> programming language in there with it. To an antivirus that looks **exactly** like what
-> actual malware does — same wrapping paper, wildly different contents. Textbook mistaken
-> identity. Don't trust a stranger's exe? Fair instinct.
+> **🛡️ Scanner flagged the app?**
+> False alarm — [here's the scan report for every release](https://github.com/emzakit/xcom_ame_readme/wiki/Changelog).
+> The app is built with a tool called Nuitka, which turns the Python code into something
+> you can run without installing Python first, and packs everything it needs alongside it.
+> To an antivirus that looks **exactly** like what actual malware does — same wrapping paper,
+> wildly different contents. Textbook mistaken identity. Don't trust a stranger's program?
+> Fair instinct.
 > [Build it yourself.](https://github.com/emzakit/xcom_ame_readme/wiki/Building-the-exe)
 
 ---
