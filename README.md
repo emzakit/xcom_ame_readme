@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img alt="Version 2.0.3" src="https://img.shields.io/badge/version-2.0.3-5fd3e3?style=for-the-badge&labelColor=08141a">
+  <img alt="Version 2.1.0" src="https://img.shields.io/badge/version-2.1.0-5fd3e3?style=for-the-badge&labelColor=08141a">
   <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3796844123">
     <img alt="Steam Workshop" src="https://img.shields.io/badge/Steam-Workshop-d9a441?style=for-the-badge&labelColor=08141a&logo=steam">
   </a>
