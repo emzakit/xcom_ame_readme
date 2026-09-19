@@ -46,7 +46,7 @@ You get three items: the mod, Music Modding System, and the app itself.
 
 > The first two are mods, and both need **switching on** in your mod launcher as well as subscribing. Music Modding System's whole job is making the game's own soundtrack shut up; ours is playing yours instead. Skip it and you get two soundtracks fighting over the same speaker.
 >
-> The third isn't a mod and never loads into the game — it's just how Steam hands you the app, and keeps it updated. Don't go looking for it in your mod launcher.
+> The third isn't a mod and never loads into the game — it's [Anarchy Music Engine (XIPOD: Binaries)](https://steamcommunity.com/sharedfiles/filedetails/?id=3801304028), just how Steam hands you the app, and keeps it updated. Don't go looking for it in your mod launcher.
 
 **2.** Add **`-forcelogflush`** to XCOM 2's launch options — the box where you type extra
 settings for the game before it starts.
@@ -86,14 +86,20 @@ job — don't wipe it out to make room.
 **3.** **Unzip the app somewhere of your own** and **run `AnarchyME.exe`.** It doesn't
 install anything and it doesn't want to live next to XCOM.
 
-> Steam put the zip in `steamapps\workshop\content\268500\3801304028`. To get there:
-> right-click **XCOM 2 → Manage → Browse local files**, then go **up two folders** to
-> `steamapps` and into `workshop\content\268500\3801304028`.
->
-> **Don't run it from that folder.** Steam owns it and replaces everything in it every
-> time the app updates, which would take your settings and saved sounds with it. Copy the
-> zip out first. Not on Steam, or in a hurry? The **[Google Drive folder](https://drive.google.com/drive/folders/1ALThBR63ANKujNiqlUrygeqxSCVFXRHA)**
-> has the same zip, and it's still where the app's own updater looks.
+<table>
+<tr>
+<td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3801304028"><img src="assets/mod_covers/anarchyme_binaries.jpg" width="120" alt="Anarchy Music Engine (XIPOD: Binaries)"></a></td>
+<td>
+
+**[Anarchy Music Engine (XIPOD: Binaries)](https://steamcommunity.com/sharedfiles/filedetails/?id=3801304028)** — *standalone desktop application*
+
+Steam puts the zip in `steamapps\workshop\content\268500\3801304028`. To get there: right-click **XCOM 2 → Manage → Browse local files**, then go **up two folders** to `steamapps` and into `workshop\content\268500\3801304028`.
+
+**Don't run it from that folder.** Steam owns it and replaces everything in it every time the app updates, which would take your settings and saved sounds with it. Copy the zip out first. Not on Steam, or in a hurry? The **[Google Drive folder](https://drive.google.com/drive/folders/1ALThBR63ANKujNiqlUrygeqxSCVFXRHA)** has the same zip, and it's still where the app's own updater looks.
+
+</td>
+</tr>
+</table>
 
 > No wizard to sit through. The settings panel opens on the **Options** tab — set your
 > **Game Launcher / AML**, press **Find my paths**, and it works the rest out from there.
@@ -154,7 +160,7 @@ You can build stations of your own too, on the **Stations** tab — that's the s
 
 ## 🎧 Packs to start you off
 
-Seven of them, all free on the Workshop, all built with this app. **Subscribe and they turn up in Addons on their own** — nothing to unzip, nothing copied onto your drive.
+Eight of them, all free on the Workshop, all built with this app. **Subscribe and they turn up in Addons on their own** — nothing to unzip, nothing copied onto your drive.
 
 ### 🎼 Soundtracks — they follow the game
 
@@ -181,9 +187,24 @@ Built to test whether the app actually worked. It did. A full XCOM 2 soundtrack 
 </tr>
 </table>
 
-### 📻 A station — you tune to it by name
+### 📻 Stations — you tune to them by name
 
 <table>
+<tr>
+<td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3803922248"><img src="assets/mod_covers/mod_resistance_radio_remade.jpg" width="120" alt="Resistance Radio Remade (XIPOD)"></a></td>
+<td>
+
+**[Resistance Radio Remade (XIPOD)](https://steamcommunity.com/sharedfiles/filedetails/?id=3803922248)** — *radio · 4 dial stations · selectable songs*
+
+The flagship station pack. A complete ground-up rebuild of the classic [Resistance Radio mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2863096697) for Anarchy Music Engine:
+
+- **Four dial stations:** **The Sundown Frequency 89.3** (Blues), **Boom-Bap Insurgency 96.1** (Hip-Hop), **Doomsday Drivetime 104.7** (Pop), and **Scorched Earth Radio 66.6** (Rock).
+- **Pick any track:** Unlike the original mod's giant monolithic audio files, browse the full tracklist in the overlay and play whatever song you want on demand.
+- **Baked reverb:** Authentic in-world room acoustics are pre-rendered into the tracks, and the app automatically bypasses external filters (`fx: "none"`).
+- **Auto-assigned DJs:** Subscribe to the [DJ personality packs](https://steamcommunity.com/workshop/filedetails/?id=3785517540) and each presenter (Roy Hollis, Boom-Bap Steele, Roxy, Valentine Sable) automatically takes their respective station booth on launch!
+
+</td>
+</tr>
 <tr>
 <td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798401376"><img src="assets/mod_covers/mod_resistance_radio.jpg" width="120" alt="Resistance Radio"></a></td>
 <td>
@@ -198,7 +219,7 @@ The starter pack. Radio mixes lifted from well-known games, chat shows, and your
 
 ### 🎙️ DJs — they bring the patter, you bring the records
 
-**None of these four ship a single song.** Make a station on the **Stations** tab, point it at a folder of your own, pick a DJ from its dropdown, and they present *your* library — jingles, idents, links between records, ad reads. Preview them before you hire them.
+**None of these four ship a single song.** Make a station on the **Stations** tab, point it at a folder of your own, pick a DJ from its dropdown, and they present *your* library — jingles, idents, links between records, ad reads. Preview them before you hire them. (Or subscribe to **Resistance Radio Remade** above, and they take their respective booths automatically on launch.)
 
 <table>
 <tr>
