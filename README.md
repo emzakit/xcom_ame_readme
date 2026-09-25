@@ -160,7 +160,7 @@ You can build stations of your own too, on the **Stations** tab — that's the s
 
 ## 🎧 Packs to start you off
 
-Eight of them, all free on the Workshop, all built with this app. **Subscribe and they turn up in Addons on their own** — nothing to unzip, nothing copied onto your drive.
+Free on the Workshop, all built with this app. **Subscribe and they turn up in Addons on their own** — nothing to unzip, nothing copied onto your drive. (And all 8 DJ personality packs come pre-bundled with the app binaries, so there's no need to subscribe to them separately!)
 
 ### 🎼 Soundtracks — they follow the game
 
@@ -194,14 +194,22 @@ Built to test whether the app actually worked. It did. A full XCOM 2 soundtrack 
 <td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3803922248"><img src="assets/mod_covers/mod_resistance_radio_remade.jpg" width="120" alt="Resistance Radio Remade (XIPOD)"></a></td>
 <td>
 
-**[Resistance Radio Remade (XIPOD)](https://steamcommunity.com/sharedfiles/filedetails/?id=3803922248)** — *radio · 4 dial stations · selectable songs*
+**[Resistance Radio Remade (XIPOD)](https://steamcommunity.com/sharedfiles/filedetails/?id=3803922248)** — *radio · 8 dial stations · selectable songs*
 
 The flagship station pack. A complete ground-up rebuild of the classic [Resistance Radio mod](https://steamcommunity.com/sharedfiles/filedetails/?id=2863096697) for Anarchy Music Engine:
 
-- **Four dial stations:** **The Sundown Frequency 89.3** (Blues), **Boom-Bap Insurgency 96.1** (Hip-Hop), **Doomsday Drivetime 104.7** (Pop), and **Scorched Earth Radio 66.6** (Rock).
-- **Pick any track:** Unlike the original mod's giant monolithic audio files, browse the full tracklist in the overlay and play whatever song you want on demand.
+- **Eight dial stations:**
+  - **The Sundown Frequency 89.3** — Blues (hosted by DJ Roy Hollis)
+  - **Boom-Bap Insurgency 96.1** — Hip-Hop (hosted by DJ Boom-Bap Steele)
+  - **Doomsday Drivetime 104.7** — Dance (hosted by DJ Roxy)
+  - **Scorched Earth Radio 66.6** — Classic Rock (hosted by DJ Valentine Sable)
+  - **High-Altitude Truth 99.9** — Rock (hosted by DJ Jetpack Jimmy)
+  - **Demoncrusher 61.6** — Metal (hosted by DJ Duke Van Halen)
+  - **Sorry Baby 106.9** — Pop (hosted by DJ Sister Don Daddy Cool)
+  - **Donk FM 108.4** — Electro / Donk (hosted by DJ Donk On It)
+- **Pick any track:** Unlike the original mod's giant monolithic audio files, browse the full tracklist in the overlay and play whatever song you want on demand — with proper song titles instead of raw filenames.
 - **Baked reverb:** Authentic in-world room acoustics are pre-rendered into the tracks, and the app automatically bypasses external filters (`fx: "none"`).
-- **Auto-assigned DJs:** Subscribe to the [DJ personality packs](https://steamcommunity.com/workshop/filedetails/?id=3785517540) and each presenter (Roy Hollis, Boom-Bap Steele, Roxy, Valentine Sable) automatically takes their respective station booth on launch!
+- **Auto-assigned DJs:** All 8 DJs are bundled directly with the app binaries, taking their respective station booths automatically on launch!
 
 </td>
 </tr>
@@ -214,19 +222,6 @@ The flagship station pack. A complete ground-up rebuild of the classic [Resistan
 The starter pack. Radio mixes lifted from well-known games, chat shows, and your own Resistance Podcast — **seven stations on the dial**. Pair it with Radio Mode and every trip back to the Avenger lands you somewhere new.
 
 </td>
-</tr>
-</table>
-
-### 🎙️ DJs — they bring the patter, you bring the records
-
-**None of these four ship a single song.** Make a station on the **Stations** tab, point it at a folder of your own, pick a DJ from its dropdown, and they present *your* library — jingles, idents, links between records, ad reads. Preview them before you hire them. (Or subscribe to **Resistance Radio Remade** above, and they take their respective booths automatically on launch.)
-
-<table>
-<tr>
-<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404665"><img src="assets/mod_covers/mod_dj_valentine.jpg" width="120" alt="Valentine Sable"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404665">Valentine Sable</a></strong><br><em>rock</em></td>
-<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404340"><img src="assets/mod_covers/mod_dj_roy.jpg" width="120" alt="Roy Hollis"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404340">Roy Hollis</a></strong><br><em>blues</em></td>
-<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404098"><img src="assets/mod_covers/mod_dj_roxy.jpg" width="120" alt="Roxy"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798404098">Roxy</a></strong><br><em>pop</em></td>
-<td width="25%" align="center"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798403794"><img src="assets/mod_covers/mod_dj_boombap.jpg" width="120" alt="Boom-Bap Steele"></a><br><strong><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798403794">Boom-Bap Steele</a></strong><br><em>hip-hop</em></td>
 </tr>
 </table>
 
@@ -282,6 +277,23 @@ Subscribe to a Workshop music pack and it **just shows up** in your library. Fli
 **Not everything comes off the Workshop.** A pack a mate zips up and sends you goes straight into your **music folder** and turns up on the list beside the subscribed ones. Every card says which of the three places it came from, so you're never guessing. Hit **Refresh** and a pack that arrived after the app started is there without a restart.
 
 There's no Save button — flick a switch and it's saved and rescanned about half a second later. **Your own music always wins** if a pack has a track with the same filename, so a pack can never quietly hide a track you put there yourself.
+
+</td>
+</tr>
+<tr>
+<td width="42%"><img src="assets/xipod_artwork.png" alt="MMS Converter"></td>
+<td>
+
+### 🔄 MMS Converter
+
+**Got existing Music Modding System mods? Convert them to Anarchy Music Engine in one click.**
+
+The **MMS Converter** tab discovers all MMS music mods subscribed on your Steam Workshop (or in any loose folder). It extracts the audio directly from their `.upk` packages and builds clean, ready-to-play Anarchy Music Engine addons with complete state folder structures and declarations.
+
+Choose your export format:
+- **WAV** — exact uncompressed audio copy straight from the mod, zero generation loss.
+- **MP3** — high quality, small disk space.
+- **OGG (Opus)** — ultra-efficient modern audio format, crisp and compact.
 
 </td>
 </tr>
