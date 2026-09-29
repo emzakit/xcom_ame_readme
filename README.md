@@ -207,6 +207,7 @@ The flagship station pack. A complete ground-up rebuild of the classic [Resistan
   - **Demoncrusher 61.6** — Metal (hosted by DJ Duke Van Halen)
   - **Sorry Baby 106.9** — Pop (hosted by DJ Sister Don Daddy Cool)
   - **Donk FM 108.4** — Electro / Donk (hosted by DJ Donk On It)
+ 
 - **Pick any track:** Unlike the original mod's giant monolithic audio files, browse the full tracklist in the overlay and play whatever song you want on demand — with proper song titles instead of raw filenames.
 - **Baked reverb:** Authentic in-world room acoustics are pre-rendered into the tracks, and the app automatically bypasses external filters (`fx: "none"`).
 - **Auto-assigned DJs:** All 8 DJs are bundled directly with the app binaries, taking their respective station booths automatically on launch!
@@ -217,7 +218,7 @@ The flagship station pack. A complete ground-up rebuild of the classic [Resistan
 <td width="132"><a href="https://steamcommunity.com/sharedfiles/filedetails/?id=3798401376"><img src="assets/mod_covers/mod_resistance_radio.jpg" width="120" alt="Resistance Radio"></a></td>
 <td>
 
-**[Resistance Radio](https://steamcommunity.com/sharedfiles/filedetails/?id=3798401376)** — *radio · chat*
+**[Resistance Radio Network](https://steamcommunity.com/sharedfiles/filedetails/?id=3798401376)** — *radio · chat*
 
 The starter pack. Radio mixes lifted from well-known games, chat shows, and your own Resistance Podcast — **seven stations on the dial**. Pair it with Radio Mode and every trip back to the Avenger lands you somewhere new.
 
